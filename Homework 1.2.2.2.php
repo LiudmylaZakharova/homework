@@ -1,5 +1,6 @@
 <?php
 // change data types in variables
+//changing of boolean to integer
 echo 'Boolean "true" to integer:';
 var_dump((int)true);
 echo 'Boolean "false" to integer:';
