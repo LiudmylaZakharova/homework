@@ -7,7 +7,7 @@
  */
 $string = "bar_next_text";
 
-function transferToCamlCase($string, $FirstChapter = false)
+function transferToCamelCase($string, $FirstChapter = false)
 {
     $str = str_replace(' ', '', ucwords(str_replace('_', ' ', $string)));
     if (!$FirstChapter) {
@@ -15,4 +15,4 @@ function transferToCamlCase($string, $FirstChapter = false)
     }
     return $str;
 }
-echo transferToCamlCase($string);
+echo transferToCamelCase($string);
